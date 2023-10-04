@@ -13,6 +13,11 @@ public class IndexController {
 		return "index.jsp";
 		
 	}
+	
+	@RequestMapping("/login.html")
+	public String Login() {
+		return "Login.jsp";
+	}
 	@RequestMapping("/feedback.html")
 	public String feedback() {
 		return "feedback.jsp";	
